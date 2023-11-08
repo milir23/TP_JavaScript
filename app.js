@@ -1,3 +1,5 @@
+alert("Profe: las actividades de la primera parte del trabajo estan para ver en el repositorio. El último ejercicio, lo sigo practicando porque hasta ahora no hubo caso. Saludos!");
+
 //Actividad 1 - Numero Primo
 
 let numero = 6;
