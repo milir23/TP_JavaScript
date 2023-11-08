@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --colorUno: #E8E0D9;
+  --colorDos: #262626;
+  --colortres: #7d7d7d;
+  --colorcuatro: #b5b5b5;
+  --fuente1: 'Playfair Display', serif;
+  --fuente2: 'Roboto', sans-serif;
+}
+
+/*Fuentes*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Playfair:opsz,wght@5..1200,800;5..1200,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair:opsz,wght@5..1200,800;5..1200,900&family=Roboto:wght@500&display=swap');
+
+
+.marge {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 50px;
+}
+
+.marge1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.marge2{ display: flex;
+justify-content: center;
+align-items: center;}
+
+.tarjetas {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  margin: 20px 10px 20px 10px;
+  padding: 10px;
+
+
+
+}
+
+div {
+  background-color: var(--colorUno);
+  border-radius: 5px;
+
+}
+
+img {
+  margin: 10px 0px 0px 35px;
+  height: auto;
+  cursor: pointer;
+}
+
+.texto {
+  font-family: var(--fuente1);
+  margin: 5px 25px 5px 30px;
+}
+
+.texto1 {
+  font-family: var(--fuente2);
+  margin: 5px 25px 5px 30px;
+}
+
+button {
+  font-family: var(--fuente2);
+  width: 150px;
+  height: 30px;
+  background-color: black;
+  border-style: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  margin: 5px 25px 5px 30px;
+}
+
+.peso {
+  font-weight: 600;
+}
